@@ -40,7 +40,7 @@ Code Push → GitHub Actions (CI)
 
 **Security scanning caught 2 critical CVEs before deployment**
 
-![Trivy CVE Output](<img width="1280" height="340" alt="2VulnerabilitiesFound" src="https://github.com/user-attachments/assets/f06577f3-e6c1-4d7a-95da-3f7280254fb0" />)
+![Trivy CVE Output](https://github.com/user-attachments/assets/f06577f3-e6c1-4d7a-95da-3f7280254fb0)
 
 Trivy detected CVE-2026-42496 and CVE-2026-8376 in the `python:3.11-slim` base 
 image — both critical vulnerabilities in `perl-base`. Fixed by switching to 
@@ -49,7 +49,7 @@ image — both critical vulnerabilities in `perl-base`. Fixed by switching to
 
 **CI pipeline went from red to green after the fix**
 
-![Green Pipeline](<img width="1280" height="336" alt="Greenpipeline" src="https://github.com/user-attachments/assets/beed1680-4d2d-437b-b22d-abfc26abf2f0" />)
+![Green Pipeline](https://github.com/user-attachments/assets/beed1680-4d2d-437b-b22d-abfc26abf2f0)
 
 
 After switching the base image, all 3 checks passed — tests, Docker build, and 
@@ -65,8 +65,8 @@ replica kept serving traffic throughout.
 
 **GitOps auto-deployment**
 
-![ArgoCD Dashboard](<img width="1280" height="336" alt="Greenpipeline" src="https://github.com/user-attachments/assets/beed1680-4d2d-437b-b22d-abfc26abf2f0" />
-)
+![ArgoCD Dashboard](https://github.com/user-attachments/assets/beed1680-4d2d-437b-b22d-abfc26abf2f0)
+
 ArgoCD watches the GitHub repo and automatically syncs any change pushed to the 
 `kubernetes/` folder to the running cluster. No manual `kubectl` steps required.
 
