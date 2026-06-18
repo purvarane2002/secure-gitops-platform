@@ -18,9 +18,7 @@ This platform catches that at the pipeline stage, before anything reaches the cl
 **On the first real test, the scanner flagged 2 critical CVEs hiding in a standard 
 Python base image. Both were blocked before a single deployment took place.**
 
-
-
-![Architecture Diagram](<img width="1360" height="840" alt="ArchitectureDiagram" src="https://github.com/user-attachments/assets/06944bc3-84f7-4bea-aedf-7660db899d31" />)
+![Architecture Diagram](https://github.com/user-attachments/assets/06944bc3-84f7-4bea-aedf-7660db899d31)
 
 The full pipeline runs automatically on every code push:
 Code Push → GitHub Actions (CI)
